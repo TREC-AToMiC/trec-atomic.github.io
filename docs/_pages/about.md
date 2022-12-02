@@ -26,7 +26,7 @@ That is, an editor of Wikipedia examines a *specific section* of an article and 
 
 ### Image Promotion
 This task is the inverse of the image suggestion task.
-The query $q$ is an image drawn from $$\mathcal{C}_{M}$$ and the collection to be searched is $$\mathcal{C}_{T}$$.
+The query $$q$$ is an image drawn from $$\mathcal{C}_{M}$$ and the collection to be searched is $$\mathcal{C}_{T}$$.
 
 ![Image Promotion Task](/assets/images/20221118_TREC_AToMiC_intro.021.png){: .align-center}
 <figcaption>An image provider seeks to find relevant articles or contexts given the query image.</figcaption>
