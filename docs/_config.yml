@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "TREC-AToMiC"
+title                    : "AToMiC"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Authoring Tools for Multimedia Contents"
+subtitle                 : "Authoring Tools for Multimedia Contents" # site tagline that appears below site title in masthead
+name                     : "Authoring Tools for Multimedia Contents (AToMiC)"
 description              : "TREC-AToMiC Official Website"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -125,7 +125,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/TREC-AToMiC"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -136,12 +136,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/TREC-AToMiC"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
