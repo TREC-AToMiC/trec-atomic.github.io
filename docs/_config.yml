@@ -126,22 +126,25 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/TREC-AToMiC"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Dataset"
+      icon: "fas fa-fw fa-database"
+      url: "https://huggingface.co/organizations/TREC-AToMiC"
 
 # Site Footer
 footer:
   links:
+    - label: "Dataset"
+      icon: "fas fa-fw fa-database"
+      url: "https://huggingface.co/TREC-AToMiC"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/TREC-AToMiC"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:trec-atomic-organizers@googlegroups.com"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
