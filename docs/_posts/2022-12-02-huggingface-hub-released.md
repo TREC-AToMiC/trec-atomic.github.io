@@ -9,6 +9,23 @@ tags:
 
 AToMiC (v0.1) Dataset is avaliable on [HuggingFace Hub](https://huggingface.co/TREC-AToMiC)
 
+## Purpose
+
+Multimedia retrieval evaluation and tool developement
+
+## Dataset descriptions
+
+| split      | # Texts   | # Images  | # Qrels   |
+|------------|----------:|----------:|----------:|
+| Training   | 5,030,748 | 3,723,512 | 5,030,748 |
+| Validation | 38,859    | 30,365    | 38,859    |
+| Test       | 30,938    | 20,732    | 30,938    |
+| Total      | 5,100,545 | 3,774,609 | 5,100,545 |
+
+- Dataset format: Parquet (with embedded images)
+- Source: Image--Text tuples from [WIT](https://github.com/google-research-datasets/wit) and images from Wikimedia
+- Language: English
+
 ## Requirements
 - [HuggingFace Datasets](https://github.com/huggingface/datasets)
 
