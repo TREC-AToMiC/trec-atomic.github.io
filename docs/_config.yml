@@ -128,7 +128,7 @@ author:
       url: "https://github.com/TREC-AToMiC"
     - label: "Dataset"
       icon: "fas fa-fw fa-database"
-      url: "https://huggingface.co/organizations/TREC-AToMiC"
+      url: "https://huggingface.co/TREC-AToMiC"
 
 # Site Footer
 footer:
