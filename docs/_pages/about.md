@@ -7,8 +7,15 @@ title: "What is AToMiC?"
 We aim to provide evaluation resources and toolkits for researchers from information retrieval, natural language
 processing, computer vision, and multimedia communities.
 
+## Motivation
 
-# Tasks
+Multimedia search is still a challenging task.
+The ever-growing production of text--image data has brought many works from different research communities to address the problem of effectively accessing multimedia resources.
+However, their capabilities for real-world applications is still questionable.
+The *de facto* image--text datasets (Flickr30k and MS-COCO) are constructed to generate image-text associations based on high-level concepts (i.e., describing generic objects such as mountain, or cat), while real-world multimedia search applications often deal with very specific semantic entities (e.g. Mount Fuji, or Larry the Cat).
+Hence, we need a better proxy to evaluate multimodal retrieval systems.
+
+## Tasks
 
 The TREC 2023 AToMiC track is organised with two tasks of the standard *ad hoc* retrieval setup.
 We assume the existence of a corpus $$\mathcal{C}$$ comprised of a collection of documents $$\{d_1, d_2 \ldots d_n\}$$.

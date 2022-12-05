@@ -22,7 +22,7 @@ Multimedia retrieval evaluation and tool developement
 | Test       | 30,938    | 20,732    | 30,938    |
 | Total      | 5,100,545 | 3,774,609 | 5,100,545 |
 
-- Dataset format: Parquet (with embedded images)
+- Format: Texts (parquet), Images (parquet with embedded images), Qrels (space separated TREC 6-column format)
 - Source: Image--Text tuples from [WIT](https://github.com/google-research-datasets/wit) and images from Wikimedia
 - Language: English
 
@@ -40,3 +40,4 @@ dataset = load_dataset(
 	  )
 print(dataset)
 ```
+Other processing usages, see [HuggingFace Datasets usage](https://huggingface.co/docs/datasets/main/en/process)
