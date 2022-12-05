@@ -22,8 +22,13 @@ Multimedia retrieval evaluation and tool developement
 | Test       | 30,938    | 20,732    | 30,938    |
 | Total      | 5,100,545 | 3,774,609 | 5,100,545 |
 
-- Format: Texts (parquet), Images (parquet with embedded images), Qrels (space separated TREC 6-column format)
-- Source: Image--Text tuples from [WIT](https://github.com/google-research-datasets/wit) and images from Wikimedia
+- Format:
+	- Texts: parquet
+	- Images parquet with embedded images
+	- Qrels: Space separated TREC Qrel format
+- Source:
+	- Image--Text tuples (Qrels) from [WIT](https://github.com/google-research-datasets/wit)
+	- Images from Wikimedia
 - Language: English
 
 ## Requirements
