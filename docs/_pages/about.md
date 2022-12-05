@@ -37,3 +37,13 @@ The query $$q$$ is an image drawn from $$\mathcal{C}_{M}$$ and the collection to
 
 ![Image Promotion Task](/assets/images/20221118_TREC_AToMiC_intro.021.png){: .align-center}
 <figcaption>An image provider seeks to find relevant articles or contexts given the query image.</figcaption>
+
+
+## Organizers
+Jheng-Hong (Matt) Yang, Univeristy of Waterloo
+Jimmy Lin, University of Waterloo
+Carlos Lassance, Naver Labs Europe
+Rafael S. Rezende, Naver Labs Europe
+Stéphane Clinchant, Naver Labs Europe
+Krishna Srinivasan, Google Research
+Miriam Redi, Wikimedia Foundation
