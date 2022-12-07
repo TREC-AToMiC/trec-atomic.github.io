@@ -25,14 +25,14 @@ Multimedia retrieval evaluation and tool developement
 - Format:
 	- Texts: parquet
 	- Images parquet with embedded images
-	- Qrels: Space separated TREC Qrel format
+	- Qrels: space separated TREC Qrel format
 - Source:
 	- Image--Text tuples (Qrels) from [WIT](https://github.com/google-research-datasets/wit)
 	- Images from Wikimedia
 - Language: English
 
 ## Requirements
-- [HuggingFace Datasets](https://github.com/huggingface/datasets)
+- [HuggingFace Datasets >= 2.6.0](https://github.com/huggingface/datasets)
 
 
 ## Code snippets:
