@@ -3,6 +3,8 @@ permalink: /about/
 title: "What is AToMiC?"
 ---
 
+See our [white paper](/assets/pdf/mm_track.pdf) for more technical details.
+
 **A**uthoring **To**ols for **M**ult**i**media **C**ontent (AToMiC) Track at the Text Reterieval Conference [(TREC)](https://trec.nist.gov/) is intended to encourage research in multimedia search systems.
 We aim to provide evaluation resources and toolkits for researchers from information retrieval, natural language
 processing, computer vision, and multimedia communities.

@@ -9,6 +9,8 @@ tags:
 
 AToMiC (v0.1) Dataset is avaliable on [HuggingFace Hub](https://huggingface.co/TREC-AToMiC)
 
+See [about](/about/) or our [white paper](/assets/pdf/mm_track.pdf) for more details about the task.
+
 ## Purpose
 
 Multimedia retrieval evaluation and tool developement
