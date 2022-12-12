@@ -9,6 +9,8 @@ See our [white paper](/assets/pdf/mm_track.pdf) for more technical details.
 We aim to provide evaluation resources and toolkits for researchers from information retrieval, natural language
 processing, computer vision, and multimedia communities.
 
+See our [white paper](/assets/pdf/mm_track.pdf) for more technical details if needed.
+
 ## Motivation
 
 Multimedia search is still a challenging task.
