@@ -11,8 +11,8 @@ The AToMiC dataset for the TREC 2023 evaluation is now available at the followin
 - [GitHub](https://github.com/TREC-AToMiC/AToMiC)
 - [HuggingFace Hub](https://huggingface.co/TREC-AToMiC)
 
-WTo aid exploration of the dataset, we have included notebooks [here](https://github.com/TREC-AToMiC/AToMiC/tree/main/notebooks).
-TAdditionally, the resource paper that accompanies the dataset is now available on [arXiv](https://arxiv.org/abs/2304.01961).
+To aid exploration of the dataset, we have included notebooks [here](https://github.com/TREC-AToMiC/AToMiC/tree/main/notebooks).
+Additionally, the resource paper that accompanies the dataset is now available on [arXiv](https://arxiv.org/abs/2304.01961).
 
 ## Changes
 - Expanded the text collection by including text-only samples (English Wikipedia articles) without any associated images. The previous version (v0.1) only contained paired image-text examples.
