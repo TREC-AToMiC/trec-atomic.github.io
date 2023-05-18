@@ -1,11 +1,13 @@
 ---
 title: "TREC 2023 AToMiC Track Guidelines"
-date: 2023-05-08T08:00:00-00:00
+date: 2023-05-17T08:00:00-00:00
 categories:
   - Annoucements
 tags:
   - Guidelines
   - TREC 2023
+classes: wide
+toc: true
 ---
 
 Welcome to the TREC 2023 AToMiC (Authoring Tools for Multimedia Content) track. 
@@ -39,12 +41,16 @@ In contexts that require a precise understanding of images, search is frequently
 - 🤗 Dataset: [Text Collection](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Texts-v0.2.1)
 - 🤗 Dataset: [Image Collection](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Images-v0.2)
 - 🤗 Dataset: [Sparse Judgments](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Qrels-v0.2)
-- More information can be found in our repo: [AToMiC](https://github.com/TREC-AToMiC/AToMiC)
+- Looking for more information?
+  - Check our [paper](https://arxiv.org/abs/2304.01961) (accepted to SIGIR23)
+  - Check our repo: [AToMiC](https://github.com/TREC-AToMiC/AToMiC)
+
 
 ## Tasks: *ad hoc* retrieval
 TREC 2023 AToMiC Track features an image suggestion task as the primary task, while keeping image promotion as the secondary task.
 
-### Task1: Image Suggestion (Primary)
+
+### Task 1: Image Suggestion (Primary)
 The goal of this task is to find relevant images from a predefined [image collection](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Images-v0.2), given a specific section of an article.
 The task involves creating high-quality representations of information presented in images, so that appropriate images can be attached to the corresponding article sections.
 
@@ -54,7 +60,8 @@ Other fields such as `page_url`, `media` and `category` are free to use, but we 
 - Items (images): the pixel values in the `image` field and the corresponding textual descriptions such as `caption_reference_description`, `caption_alt_text_description`, `caption_attribution_description`.
 Other fields such as `language` and `image_url` are free to use, but we encourage participants to provide descriptions when submitting their results.
 
-### Task2: Image Promotion (Secondary)
+
+### Task 2: Image Promotion (Secondary)
 This task is the inverse of the image suggestion task. 
 Given a specific image represented by its pixel values, the goal is to identify a section of an article where the image can be appropriately attached.
 The participants are expected to retrieve relevant items from a predefined [text collection](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Texts-v0.2.1).
@@ -100,7 +107,8 @@ topic_2 Q0 item_9 1 7.15 runid1
 topic_2 Q0 item_15 2 0.89 runid1
 ```
 
-### Submission Types:
+
+### Submission Types
 There are two types of submissions:
 
 1. **Automatic**:
@@ -126,7 +134,23 @@ However, these judgments are not guaranteed to be similar to the final assessmen
 
 ## Additional Resources
 Contributing more resources and suggtsions are welcome.
-- Prebuilt indexes: (coming soon)
+
+### Prebuilt indexes
+The prebuilt indexes are now avaiable on [🤗 datasets](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines).
+You can use the following command to download the prebuilt indexes:
+```bash
+wget https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/resolve/main/indexes/ViT-L-14.laion2b_s32b_b82k.image.faiss.flat.tar.gz
+wget https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/resolve/main/indexes/ViT-L-14.laion2b_s32b_b82k.text.faiss.flat.tar.gz
+``` 
+
+
+## Contact Information
+If any question, comments, or suggestions for organizers:
+- Email [Jheng-Hong Yang](jheng-hong.yang@uwaterloo.ca) or [AToMiC organizers](trec-atomic-organizers@googlegroups.com)
+
+Discuss with other participants:
+- Mail loop for further annocements: [Google group](https://groups.google.com/g/atomic-participants)
+- Chit-chat & quick discussion: [Discord](https://discord.gg/pgDMArnGAH)
 
 
 ## Organizers
