@@ -10,11 +10,18 @@ classes: wide
 toc: true
 ---
 
-## Development topics
+Release of the development topics for the TREC-AToMiC task. These topics are an addition on top of the validation set of AToMiC and aim to be closer to what you should expect for the task. The main difference is that they have a pooled set of annotations, leading to a richer annotation compared to the validation set. However, in order to achieve this richer annotation, there are way less queries (only 13) that have been selected to showcase different attributes of retrievers. 
 
-We are now releasing the topics for model development for TREC-AToMiC. These topics are an addition on top of the validation set of AToMiC and aim to be closer to what you should expect for the task. The main difference is that they have a pooled set of annotations, leading to a richer annotation compared to the validation set. However, in order to achieve this richer annotation, there are way less queries (only 13) that have been selected to showcase different attributes of retrievers. 
+We note that the topics do not represent exactly what will be the final task (we will aim for topics that are more important to wikipedia), but more in a way that they were: a) Easy to annotate and b) Could show some important factor, such as topics from the AToMiC training set, but that the linked image is very different from others that may be found in the original AToMiC corpus.  
 
-We note that the topics do not represent exactly what will be the final task (we will aim for topics that are more important to wikipedia), but more in a way that they were: a) Easy to annotate and b) Could show some important factor, such as topics from the AToMiC training set, but that the linked image is very different from others that may be found in the original AToMiC corpus.  The 13 topics are divided into 4 areas:
+## Download links
+
+* [Query dataset](https://huggingface.co/datasets/TREC-AToMiC/Development-Set-2023)
+* [Run files for baselines (8 models)](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/tree/main/dev_set/runs)
+* [Qrel](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/blob/main/dev_set/devset_qrel.csv)
+* [Evaluation script](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/blob/main/dev_set/evaluate.py)
+
+## Overall look into the development topics
 
 ### TV/Cinema
 
@@ -46,9 +53,6 @@ In order to annotate the queries we ran 5 baselines (4 Multi-Modal and 1 textual
 
 The first thing we notice is that the models are able to perform better than expected on this set of topics. Indeed, if we compare the RR@10 of ViT-G on the validation of AToMiC (0.074) with the one we obtained it is clear that the sparse annotations do not suffise for this task (we talk in more detail below looking at each topic individually). More-so, the gap between textual only models (such as SPLADE) and Multi-Modal is greatly reduced, especially on precision based metrics. Finally, we are able to see improvements using an ensemble of multi-modal and text-only models.
 
-## Download links
+## Detailled look on the topics
 
-* [Query dataset](https://huggingface.co/datasets/TREC-AToMiC/Development-Set-2023)
-* [Run files for baselines (8 models)](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/tree/main/dev_set/runs)
-* [Qrel](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/blob/main/dev_set/devset_qrel.csv)
-* [Evaluation script](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/blob/main/dev_set/evaluate.py)
+Coming soon!
