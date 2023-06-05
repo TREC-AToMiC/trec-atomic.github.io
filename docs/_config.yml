@@ -82,7 +82,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "TREC_AToMiC"
 facebook:
   username               :
   app_id                 :
@@ -119,7 +119,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/TREC_AToMiC"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -141,7 +141,7 @@ footer:
       url: "https://huggingface.co/TREC-AToMiC"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/TREC_AToMiC"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/TREC-AToMiC"
