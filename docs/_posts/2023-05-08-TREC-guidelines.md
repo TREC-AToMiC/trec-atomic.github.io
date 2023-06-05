@@ -1,6 +1,6 @@
 ---
 title: "TREC 2023 AToMiC Track Guidelines"
-date: 2023-05-17T08:00:00-00:00
+date: 2023-05-08T08:00:00-00:00
 categories:
   - Annoucements
 tags:
@@ -13,7 +13,7 @@ toc: true
 Welcome to the TREC 2023 AToMiC (Authoring Tools for Multimedia Content) track. 
 This page provides essential guidelines about the track, including important dates, registration instructions, tasks, datasets, submission requirements, and evaluation methods.
 
-## Important Dates (tentative)
+## Important Dates
 - Development topics released: June 2nd, 2023
 - Test topics released: June 26th, 2023
 - Submission deadline: July 24th, 2023
@@ -44,6 +44,7 @@ In contexts that require a precise understanding of images, search is frequently
 - Looking for more information?
   - Check our [paper](https://arxiv.org/abs/2304.01961) (accepted to SIGIR23)
   - Check our repo: [AToMiC](https://github.com/TREC-AToMiC/AToMiC)
+- Development topics/qrels: check our latest [post](/annoucements/dev-queries/)
 
 
 ## Tasks: *ad hoc* retrieval
@@ -146,7 +147,7 @@ wget https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/resolve/main/i
 
 ## Contact Information
 If any question, comments, or suggestions for organizers:
-- Email [Jheng-Hong Yang](jheng-hong.yang@uwaterloo.ca) or [AToMiC organizers](trec-atomic-organizers@googlegroups.com)
+- Email [Jheng-Hong Yang](mailto:jheng-hong.yang@uwaterloo.ca) or [AToMiC organizers](mailto:trec-atomic-organizers@googlegroups.com)
 
 Discuss with other participants:
 - Mail loop for further annocements: [Google group](https://groups.google.com/g/atomic-participants)
