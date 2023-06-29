@@ -1,5 +1,6 @@
 ---
 title: "TREC 2023 AToMiC Track Guidelines"
+permalink: /trec-2023-guidelines/
 date: 2023-05-08T08:00:00-00:00
 categories:
   - Annoucements
@@ -15,7 +16,7 @@ This page provides essential guidelines about the track, including important dat
 
 ## Important Dates
 - Development topics released: June 2nd, 2023
-- Test topics released: June 26th, 2023
+- Test topics released: ~~June 26th, 2023~~ June 29th, 2023
 - Submission deadline: July 24th, 2023
 - Assessment period: August 2023
 
