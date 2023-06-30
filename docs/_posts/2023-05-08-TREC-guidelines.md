@@ -46,7 +46,7 @@ In contexts that require a precise understanding of images, search is frequently
   - Check our [paper](https://arxiv.org/abs/2304.01961) (accepted to SIGIR23)
   - Check our repo: [AToMiC](https://github.com/TREC-AToMiC/AToMiC)
 - Development topics/qrels: check our latest [post](/annoucements/dev-queries/)
-
+- *TREC2023 topics: are now available [here](/annoucements/test-queries/) *
 
 ## Tasks: *ad hoc* retrieval
 TREC 2023 AToMiC Track features an image suggestion task as the primary task, while keeping image promotion as the secondary task.
