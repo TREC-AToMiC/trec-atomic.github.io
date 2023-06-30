@@ -26,7 +26,7 @@ Additionally, we considered the following sub-criteria:
 - Article Quality: 
   We sampled 100 topics from C-class articles, 50 topics from B-class articles, and 50 topics from Featured or Good Articles.
 - AToMiC Text Collection Coverage: 
-  The coverage of the AToMiC text collection for the test topics is as follows: 180 topics belong to the *other* set with no sparse labels at all, 19 topics are from the *training* set, and 1 topic represents the *test* set.
+  The coverage of the AToMiC text collection for the test topics is as follows: 180 topics belong to the *other* set with no sparse labels at all, 19 topics are from the *training* set, and 1 topic represents the *test* set. Note that choosing examples from the training set is deliberate as the sparse labels may not represent the entire possibility of images that would be associated with the topic
 
 We believe that this selection process ensures a diverse and representative set of topics for the TREC-AToMiC task. 
 We look forward to receiving your runfiles based on these test topics.
@@ -36,7 +36,7 @@ Thank you for your participation!
 
 
 ## Download Links
-The dataset is avaliable on HuggingFace 🤗:
+The dataset is available on HuggingFace 🤗:
 * [Query dataset](https://huggingface.co/datasets/TREC-AToMiC/TREC-2023-Text-to-Image)
-* Query embeddings (TBA)
-* Baseline runfiles (TBA)
+* [Query embeddings](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/tree/main/trec2023/topics)
+* [Baseline runfiles](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Baselines/tree/main/trec2023/runs)
