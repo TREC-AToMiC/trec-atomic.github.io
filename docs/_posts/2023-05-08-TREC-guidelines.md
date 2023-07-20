@@ -17,7 +17,7 @@ This page provides essential guidelines about the track, including important dat
 ## Important Dates
 - Development topics released: June 2nd, 2023
 - Test topics released: ~~June 26th, 2023~~ June 29th, 2023
-- Submission deadline: July 24th, 2023
+- Submission deadline: ~~July 24th, 2023~~ Aug 1st, 2023
 - Assessment period: August 2023
 
 
@@ -39,6 +39,8 @@ In contexts that require a precise understanding of images, search is frequently
 
 
 ## Datasets
+
+### Resources
 - 🤗 Dataset: [Text Collection](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Texts-v0.2.1)
 - 🤗 Dataset: [Image Collection](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Images-v0.2)
 - 🤗 Dataset: [Sparse Judgments](https://huggingface.co/datasets/TREC-AToMiC/AToMiC-Qrels-v0.2)
@@ -46,7 +48,8 @@ In contexts that require a precise understanding of images, search is frequently
   - Check our [paper](https://arxiv.org/abs/2304.01961) (accepted to SIGIR23)
   - Check our repo: [AToMiC](https://github.com/TREC-AToMiC/AToMiC)
 - Development topics/qrels: check our latest [post](/annoucements/dev-queries/)
-- *TREC2023 topics: are now available [here](/annoucements/test-queries/) *
+- *** TREC2023 topics: are now available [here](/annoucements/test-queries/) ***
+
 
 ## Tasks: *ad hoc* retrieval
 TREC 2023 AToMiC Track features an image suggestion task as the primary task, while keeping image promotion as the secondary task.
