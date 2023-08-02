@@ -17,13 +17,16 @@ This page provides essential guidelines about the track, including important dat
 ## Important Dates
 - Development topics released: June 2nd, 2023
 - Test topics released: ~~June 26th, 2023~~ June 29th, 2023
-- Submission deadline: ~~July 24th, 2023~~ Aug 1st, 2023
+- Submission deadline: ~~July 24th, 2023~~ Aug 7th 9:00 (EST), 2023
 - Assessment period: August 2023
 
 
 ## Registration
 To participate in TREC, please register at the TREC [website](https://ir.nist.gov/trecsubmit.open/application.html)
 
+## Submission Form
+Submissions for the AToMiC track are open at [website](https://ir.nist.gov/trecsubmit/atomic.html).
+Feel free to reach out if any questions.
 
 ## Introduction
 Multimedia content creation involves understanding the connections between elements encoded in different modalities.
