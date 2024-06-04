@@ -15,7 +15,7 @@ Welcome to the TREC 2024 AToMiC (Authoring Tools for Multimedia Content) track. 
 
 ## Important Dates (AOE)
 
-- Developement Data: June 7th, 2024
+- Development Data: June 7th, 2024
 - Corpus: June 7th, 2024
 - Test Topics: June 14th, 2024
 - Submission deadline: July 31th, 2024
@@ -44,7 +44,7 @@ Image understanding focuses on detailed descriptions of depicted scenes, entitie
 
 ### 2024 Resource
 
-- 🤗 [Development Data (Nightly, subject to change)](TREC-AToMiC/atomic2023-small_text2image)
+- 🤗 [Development Data (Nightly, subject to change)](https://huggingface.co/datasets/TREC-AToMiC/atomic2023-small_text2image)
 
 ### 2023 Resource
 
