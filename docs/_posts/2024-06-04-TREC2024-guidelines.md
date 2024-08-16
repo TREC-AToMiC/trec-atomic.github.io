@@ -18,8 +18,8 @@ Welcome to the TREC 2024 AToMiC (Authoring Tools for Multimedia Content) track. 
 - Development Data: June 7th, 2024
 - Corpus: June 7th, 2024
 - Test Topics: June 14th, 2024
-- Submission deadline: July 31th, 2024
-- Assessment period: August 2024
+- Submission deadline: August 28th, 2024
+- Assessment period: September 2024
 
 ## Registration
 
@@ -29,8 +29,7 @@ If you have any questions about joining the conference, just drop a line to trec
 
 ## Submission Form
 
-TBA.
-Feel free to reach out if any questions.
+Use [Evalbase](https://ir.nist.gov/evalbase/conf/trec-2024) to submit.
 
 ## Introduction
 
@@ -45,6 +44,7 @@ Image understanding focuses on detailed descriptions of depicted scenes, entitie
 ### 2024 Resource
 
 - 🤗 [Development Data (Nightly, subject to change)](https://huggingface.co/datasets/TREC-AToMiC/atomic2023-small_text2image)
+- 🤗 [2024 test topics](https://huggingface.co/datasets/TREC-AToMiC/atomic2024/tree/main/query)
 
 ### 2023 Resource
 
